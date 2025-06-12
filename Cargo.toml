@@ -1,0 +1,9 @@
+[dependencies]
+yata = "0.7.0"
+redis = { version = "0.25", features = ["tokio-comp"] }
+rmp-serde = "1.1"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1.36", features = ["full"] }
+time = "0.3"
+anyhow = "1.0"
