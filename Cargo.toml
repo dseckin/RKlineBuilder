@@ -1,3 +1,9 @@
+[package]
+name = "RKLineBuilder"
+version = "0.1.0"
+edition = "2021"
+
+
 [dependencies]
 yata = "0.7.0"
 redis = { version = "0.25", features = ["tokio-comp"] }
